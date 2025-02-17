@@ -3,6 +3,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-image:url(1.JPG);
+    background-size: cover;  
+    background-repeat: no-repeat;  
+    background-position: center; 
+    color: ghostwhite;
 }
 
 header, footer {
@@ -12,9 +17,6 @@ header, footer {
     padding: 1em 0;
 }
 
-nav{
-    background-image: 1.jpg;
-}
 
 nav ul {
     list-style: none;
