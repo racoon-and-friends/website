@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <img src="image/ctu image.png">
+    <style>
+        body{
+            justify-content: cover;
+            height: 300px;
+            background-image: url(image/Coding\ gif.gif);
+        }
+        h1{
+            font-size: 70px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }   
+        .card img {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+        }    
+        .card {
+            border: none;
+            margin: 50px 10px 0px 10px;
+            background-color: #e9e9e9;
+            height: 500px;
+            width: 400px;
+            overflow: hiddens;
+            text-align: center;
+            box-shadow: 0 8px 8px -4px black;
+            transition: transform 0.5s;
+        }   
+        .card:hover{
+            transform:translateY(-15px)
+        } 
+        .card hr {
+            border-bottom: solid 3px C#000000;
+            width: 100px;
+            margin: 50px auto 50px auto;
+            }
+        
+        .card h4 {
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+        .card h5{
+            font-weight: bold;
+            padding: 0px 20px;
+        }
+        .card p {
+            padding: 0 10px 20px;
+            color: #555;
+        }
+        
+        .team-section {
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        .team-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .team-table td {
+            padding: 10px;
+            vertical-align: top;
+            text-align: center;
+        }
+        
+        .team-photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 15px 0;
+        }
+        td{
+            color: black;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>About Us</h1>
+    
+    <div class="cards">
+        <div class="card">
+            <img src="image/technova.png" alt="Our Purpose">
+            <hr>
+            <h4>Company Background</h4>
+            <p>Our company is a packaging arm that was established over a centry ago and has branches and operations all over the world. 
+                THanks to the investments of South Africa Technova made its first footprints in the country and its popularity soon spread world wide.
+            </p>
+        </div>
+        
+        <div class="card">
+            <img src="image/vision.png" alt="Our Vision">
+            <hr>
+            <h4>Our Vision</h4>
+            <p>Our vision is to create a supportive and inclusive educational environment where every empolyees can achieve their full potential. We aim to be a trusted companion in every employees's journey.</p>
+        </div>
+        
+        <div class="card">
+            <img src="image/our mission.jpeg" alt="Our Mission">
+            <hr>
+            <h4>Our Mission</h4>
+            <p>Our mission is to provide a user-friendly platform that helps with the daily lives of students. We are committed to innovation and empowering students to excel in their studies and beyond!</p>
+        </div>
+    </div>
+
+    <div class="team-section">
+        <h2>Meet the Team</h2>
+        <table class="team-table">
+            
+            <tr>
+                <td>Janco Burger</td>
+                <td>Angus Carey</td>
+                <td>Christian Du Tiot</td>
+                <td>Xander Uckerman</td>
+                <td>David</td>
+                <td>Michelle</td>
+                <td>Xander</td>
+                <td>Inidan</td>
+            </tr>
+            <tr>
+    
+            </tr>
+        </table>
+    </div>
+
+    <form>
+        <a href="index.html" class="button">Home</a>
+        <a href="timetable.html" class="button">Timetable</a>
+        <a href="Discussion.html" class="button">Discussion</a>
+        <a href="About us.html" class="button">About Us</a>
+        <a href="contact.html" class="button">Contact Us</a>
+        <a href="Share Resources.html" class="button">Share Resources</a>
+    </form>
+</body>
+</html>
